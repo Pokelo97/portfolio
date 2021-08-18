@@ -1,7 +1,6 @@
 import Footer from "./footer"
 import React,{useState} from "react"
 import emailjs from 'emailjs-com'
-require('dotenv').config()
 
 const Contact =()=>{
     const [showError,setShowError]=useState(false)
@@ -33,14 +32,14 @@ const Contact =()=>{
             }else{
                 if(/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(values.email.value)){
                 try {
-                    emailjs.init(REACT_APP_USER_ID)
+                    emailjs.init(process.env.REACT_APP_USER_ID)
                     let info ={
                         name:values.name.value,
                         subject:values.subject.value,
                         email:values.email.value,
                         message:values.message.value
                     }
-                    emailjs.send(process.env.REACT_APP_SERVICE_ID,REACT_APP_TEMPLATE_ID,info)
+                    emailjs.send(process.env.REACT_APP_SERVICE_ID,process.env.REACT_APP_TEMPLATE_ID,info)
                         .then(()=>{
                             setSuccess(true)
                             setError(false)
