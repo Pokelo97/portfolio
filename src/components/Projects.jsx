@@ -50,7 +50,7 @@ const Project =()=>{
                             </div>
                         </div> 
                     </div> 
-                    <br/><br/>
+                    <br/>
                     <Footer prev="/Certifications" next="/Contact"/>
                 </>
         

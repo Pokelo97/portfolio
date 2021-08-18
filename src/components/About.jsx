@@ -113,7 +113,7 @@ const About =()=>{
                                 </div> 
                             </div> 
                         </div> 
-                    </div> <br/><br/>
+                    </div> <br/>
                     <Footer prev="/Welcome" next="/Resume"/>
         </>
     )

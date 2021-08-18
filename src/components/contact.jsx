@@ -203,7 +203,7 @@ const Contact =()=>{
                             </form> 
                         </div>
                     </div> 
-                </div>
+                </div><br/>
                 <Footer prev="/Projects" next={null}/>
                 </>
 )

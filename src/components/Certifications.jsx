@@ -47,7 +47,7 @@ const Certifications =()=>{
                             </div>  
                         </div>
                     </div>
-                </div><br/><br/>
+                </div><br/><br/><br/>
             <Footer prev="/Resume" next="/Projects"/>
         </div>)
 }
