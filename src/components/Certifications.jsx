@@ -26,7 +26,7 @@ const Certifications =()=>{
                                 <div class="text">
                                                 <h4>Microsoft</h4>
                                                 <span>Developing Solutions for Microsoft Azure</span>
-                                                <br/><span>2021-2022</span>
+                                                <br/><span>2021-2023</span>
                                 </div>
                             </div>
                         </div>
@@ -42,12 +42,12 @@ const Certifications =()=>{
                                 <div class="text">
                                     <h4>CompTIA</h4>
                                     <span>CompTIA Security+</span><br/>
-                                    <span>2021-2022</span>
+                                    <span>2021-2024</span>
                                 </div>
                             </div>  
                         </div>
                     </div>
-                </div>
+                </div><br/><br/>
             <Footer prev="/Resume" next="/Projects"/>
         </div>)
 }

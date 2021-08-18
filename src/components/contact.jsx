@@ -1,8 +1,14 @@
 import Footer from "./footer"
 import React,{useState} from "react"
 import emailjs from 'emailjs-com'
+import useScript from './useScript';
 
 const Contact =()=>{
+    useScript('js/vendor/jquery-2.2.4.min.js')
+  useScript('js/jquery.easing.min.js')
+  useScript('js/jquery.nicescroll.min.js')
+  useScript('js/owl.carousel.min.js')
+  useScript('js/main.js')
     const [showError,setShowError]=useState(false)
     const [success,setSuccess]=useState(false)
     const [emailError,setEmailError]=useState(false)

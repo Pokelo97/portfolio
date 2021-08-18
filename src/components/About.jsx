@@ -1,5 +1,11 @@
 import Footer from "./footer"
+import useScript from './useScript';
 const About =()=>{
+    useScript('js/vendor/jquery-2.2.4.min.js')
+  useScript('js/jquery.easing.min.js')
+  useScript('js/jquery.nicescroll.min.js')
+  useScript('js/owl.carousel.min.js')
+  useScript('js/main.js')
     return(
         <>
                     <div class="container">
@@ -31,7 +37,7 @@ const About =()=>{
                                     <h3>Skills</h3>
                                 </div>
                                 <div class="row skill-wrapper">
-                                    <div className="col-xs-4">
+                                    <div className="col-xs-6 col-sm-4">
                                     <div class="history-item ">
                                         <img class="history-hex" src="img/react.svg" alt=""></img>
                                         <div class="history-text ">
@@ -39,7 +45,7 @@ const About =()=>{
                                         </div>
                                     </div>
                                     </div>
-                                    <div className="col-xs-4">
+                                    <div className="col-xs-6 col-sm-4">
                                         <div class="history-item ">
                                             <img class="history-hex" src="img/node.svg" alt=""></img>
                                             
@@ -48,7 +54,7 @@ const About =()=>{
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="col-xs-4">
+                                    <div className="col-xs-6 col-sm-4">
                                         <div class="history-item ">
                                             <img class="history-hex" src="img/redux.svg" alt=""></img>
                                             <div class="history-text">
@@ -56,7 +62,7 @@ const About =()=>{
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="col-xs-4">
+                                    <div className="col-xs-6 col-sm-4">
                                         <div class="history-item ">
                                             <img class="history-hex" src="img/cPlas.svg" alt=""></img>
                                             <div class="history-text">
@@ -64,7 +70,7 @@ const About =()=>{
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="col-xs-4">
+                                    <div className="col-xs-6 col-sm-4">
                                         <div class="history-item ">
                                             <img class="history-hex" src="img/cSharp.svg" alt=""></img>
                                             <div class="history-text">
@@ -72,7 +78,7 @@ const About =()=>{
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="col-xs-4">
+                                    <div className="col-xs-6 col-sm-4">
                                         <div class="history-item ">
                                             <img class="history-hex" src="img/html5.svg" alt=""></img>
                                             <div class="history-text">
@@ -80,7 +86,7 @@ const About =()=>{
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="col-xs-4">
+                                    <div className="col-xs-6 col-sm-4">
                                         <div class="history-item ">
                                             <img class="history-hex" src="img/github.svg" alt=""></img>
                                               <div class="history-text">
@@ -88,7 +94,7 @@ const About =()=>{
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="col-xs-4">
+                                    <div className="col-xs-6 col-sm-4">
                                         <div class="history-item ">
                                             <img class="history-hex" src="img/sql.svg" alt=""></img>
                                             <div class="history-text">
@@ -96,7 +102,7 @@ const About =()=>{
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="col-xs-4">
+                                    <div className="col-xs-6 col-sm-4">
                                         <div class="history-item ">
                                             <img class="history-hex" src="img/firebase.svg" alt=""></img>
                                             <div class="history-text">
@@ -107,7 +113,7 @@ const About =()=>{
                                 </div> 
                             </div> 
                         </div> 
-                    </div> 
+                    </div> <br/><br/>
                     <Footer prev="/Welcome" next="/Resume"/>
         </>
     )

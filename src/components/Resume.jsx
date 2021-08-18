@@ -1,6 +1,12 @@
 import Footer from "./footer"
+import useScript from './useScript';
 
 const Resume = () => {
+    useScript('js/vendor/jquery-2.2.4.min.js')
+  useScript('js/jquery.easing.min.js')
+  useScript('js/jquery.nicescroll.min.js')
+  useScript('js/owl.carousel.min.js')
+  useScript('js/main.js')
     return(
         <>
                     <div class="container">
@@ -55,7 +61,7 @@ const Resume = () => {
                                 </div>  
                             </div> 
                         </div> 
-                    </div>
+                    </div><br/><br/>
                     <Footer prev="/About" next="/Certifications"/>
         </> 
     )

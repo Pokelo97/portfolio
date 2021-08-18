@@ -583,7 +583,6 @@ textarea, label {
   display: flex;
 }
 .about-author .author-thumb {
-  background-color: #fff;
   border: 5px solid #1e2530;
   margin-right: 30px;
   padding: 5px;
@@ -603,34 +602,6 @@ textarea, label {
   font-family: "Open Sans", sans-serif;
 }
 
-.progress {
-  background-color: #1e2530;
-  border-radius: 2px;
-  height: auto;
-  min-height: 45px;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  -webkit-align-items: center;
-  -moz-align-items: center;
-  align-items: center;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-.progress > div {
-  color: #fff;
-  font-family: "Open Sans", sans-serif;
-  font-size: 12px;
-  letter-spacing: 1px;
-}
-.progress .skill-name {
-  border-right: 2px solid #2e333a;
-  min-width: 160px;
-  text-align: center;
-  text-transform: uppercase;
-}
 
 .filter {
   margin-bottom: 30px;
@@ -787,22 +758,7 @@ textarea, label {
   height: 38.11px;
   margin: 19.05px 0;
 }
-.history-hex::before, .history-hex::after {
-  content: "";
-  position: absolute;
-  width: 0;
-  border-left: 33px solid transparent;
-  border-right: 33px solid transparent;
-}
-.history-hex::before {
-  bottom: 100%;
-  border-bottom: 19.05px solid #293342;
-}
-.history-hex::after {
-  top: 100%;
-  width: 0;
-  border-top: 19.05px solid #293342;
-}
+
 
 .service-hex {
   float: left;
